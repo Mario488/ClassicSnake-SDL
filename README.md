@@ -19,6 +19,8 @@ SDL2 library
 SDL2_ttf library
 
 Clone the repository
+https://github.com/Mario488/Snake-2.0.git
+cd Snake-2.0
 
-Build the project
+Build the project:
 g++ -Iinclude -Iinclude/sdl -Iinclude/headers -Llib -o Main src/main.cpp -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
